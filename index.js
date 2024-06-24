@@ -48,6 +48,7 @@ const markAsCompleted = (sno) => {
 
   tasksArray[idx] = markedTask;
   saveAllTasks(tasksArray);
+  console.log("\n-----Task marked successfully!-----");
 };
 
 const deleteTask = (sno) => {
@@ -59,6 +60,7 @@ const deleteTask = (sno) => {
   }
   tasksArray.splice(idx, 1);
   saveAllTasks(tasksArray);
+  console.log("\n-----Task deleted successfully!-----");
 };
 
 const main = () => {
@@ -91,7 +93,6 @@ const main = () => {
           "Enter the sno. of the task you want to mark as completed:",
           (sno) => {
             markAsCompleted(sno);
-            console.log("\n-----Task marked successfully!-----");
             main();
           }
         );
@@ -103,7 +104,6 @@ const main = () => {
           "Enter the sno. of the task that you want to delete:",
           (sno) => {
             deleteTask(sno);
-            console.log("\n-----Task deleted successfully!-----");
             main();
           }
         );
