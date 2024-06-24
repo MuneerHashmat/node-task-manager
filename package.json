@@ -1,0 +1,22 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "task manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuneerHashmat/node-task-manager.git"
+  },
+  "keywords": [
+    "task"
+  ],
+  "author": "muneer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuneerHashmat/node-task-manager/issues"
+  },
+  "homepage": "https://github.com/MuneerHashmat/node-task-manager#readme"
+}
